@@ -1,0 +1,4 @@
+#alrp-related-posts h3, #alrp-related-posts h2{font-size:1.2em;font-style:normal;margin-bottom: 10px;}
+.alrp-content-caption{background:none repeat scroll 0 0 #fff;float:left;margin:0 5px 20px 0;}
+.alrp-content-caption img{margin:5px}
+.alrp-content-caption:hover{border:1px solid rgba(255,255,255,0.5);box-shadow:1px 1px 3px rgba(0,0,0,0.5);}

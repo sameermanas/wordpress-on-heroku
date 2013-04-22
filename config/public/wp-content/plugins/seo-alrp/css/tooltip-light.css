@@ -1,0 +1,5 @@
+/* alrptip */
+a.alrptip{position:relative}
+a.alrptip span{background-color:#fff;border:1px solid rgba(255,255,255,0.5);box-shadow:1px 1px 3px rgba(0,0,0,0.5);color:#222;display:none;filter:alpha(opacity=95);font-size:11px;left:33px;opacity:0.95;padding:5px 10px;position:absolute;text-align:left;top:22px;width:300px;z-index:100;zoom:1}
+a:hover.alrptip{font-size:99%}
+a:hover.alrptip span{display:block}

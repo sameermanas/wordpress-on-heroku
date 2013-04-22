@@ -1,0 +1,101 @@
+.alrp-table{
+	margin: 10px 0;
+	border-collapse: separate;
+}
+.alrp-table label{
+	font-size: 11px;
+	font-family: verdana;
+}
+.alrp-table tr{
+	padding: 10px;
+	background-color: #efefef;
+	border-bottom: 1px solid #white;
+	border-top: 1px solid #aaa;
+}
+.alrp-table th.rowtitle, .alrp-table th.hilite, .alrp-table td.hilite {
+	background-image: -webkit-linear-gradient(top,#DAEEB3,#C3D89A);
+}
+.alrp-table th.hilite, .alrp-table td.hilite{
+}
+.alrp-table th{
+	font-weight: bold;
+	width: 250px;
+}
+.alrp-table th, .alrp-table td{
+	font-size: 11px;
+	font-family: verdana;			
+}
+.alrp-table th.whitetitle {
+	background-color:  #fff;
+}
+.alrp-table code{
+	background-color:  #ccc;
+}
+.alrp-table input:focus, .alrp-table textarea:focus, .alrp-regform input:focus, .alrp-table select:focus {
+	background: #ffffdd; 
+}
+.alrp-table input, .alrp-table textarea, .alrp-regform input{
+	padding: 5px 10px;
+}
+.alrp-table tr:nth-child(odd) {
+	/* background-image: -webkit-linear-gradient(top,#EFEFEF,#DFDFDF); */
+	}
+.alrp-table input[type="submit"]{
+	/* padding: 5px 22px; */
+}
+.alrp-widefat, .alrp-table textarea {
+	margin: 5px 0;
+}
+.alrp-widefat td, .alrp-widefat th, .alrp-widefat tr, .alrp-widefat thead th:first-of-type{
+	font-size:11px;
+	font-family:verdana;
+	line-height: 22px;
+	padding: 2px 20px;
+}
+.dashboard p{
+	padding: 0 10px; font-family:verdana;
+}
+.dashboard ol{
+	margin:0 33px;padding: 0 10px; font-family:verdana;
+}
+.ta-center {
+	text-align: center;
+}
+.alrp-regform th{
+	text-align: right;
+	width: 125px
+}
+.alrp-regform input[type="submit"]{
+	width: 75px;
+}
+.alrp-regform input[type="text"]{
+	width: 250px;
+	margin-right: 5px;
+}
+.alrp-regform label.error{
+	color: red;
+}
+.alrp-regform label{
+		font-size: 12px;
+}
+.alrp-table input:focus + span, .alrp-regform input:focus + span{
+	display: inline;
+	font-size: 11px;
+	font-family: verdana;	
+	}
+.alrp-table input + span, .alrp-regform input + span {
+    background-color:#202020;
+    border:1px solid #fff;
+    padding:10px 15px;
+    width:200px;
+    display:none;
+    color:#fff;
+    text-align:left;
+    font-size:12px;
+    margin: 0 10px;
+    opacity: 70%;
+    filter: alpha(opacity=70);
+    box-shadow: 0 0 10px #202020;
+    -moz-box-shadow:0 0 10px #202020;
+    -webkit-box-shadow:0 0 10px #202020;
+}
