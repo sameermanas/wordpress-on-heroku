@@ -15,5 +15,3 @@ Generally, you'll be interested in adding plugins, adding themes, and modifying 
         └── php           # php.ini
             └── etc       # php-fpm.conf
 ```
-
-For everything you ever wanted to know about running Wordpress on Heroku, check out my [heroku-buildpack-wordpress](http://github.com/mchung/heroku-buildpack-wordpress).
